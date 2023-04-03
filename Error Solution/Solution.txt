@@ -1,0 +1,26 @@
+For Error Code:3948 Loading Local Data is Disabled
+
+1. Open MYSQL Command Line
+
+2. Type in your password
+
+3. Enter the following:
+
+     SHOW GLOBAL VARIABLES LIKE 'local_infile';
+
+4. If local_infile value is equal to false set it to true by:
+
+SET GLOBAL local_infile = true;
+
+
+For Error Code:2068
+
+
+Change the back slashes (\) to forward slashes (/) in the file path. Run the file again. Even if the error persists, then follow the method below.
+
+1. Go to the MySQL Connections page.
+2. Right click the connection and click 'Edit connection'.
+3. Select 'Advanced' option. Paste the below line in the 'Others' box.
+	OPT_LOCAL_INFILE=1
+4. Click 'Test Connection'. It will successfully update the connection.
+5. Click close.
