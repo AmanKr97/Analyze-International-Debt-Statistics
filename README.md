@@ -5,7 +5,8 @@
 
 <h1 align="center">Project Title : Analyze International Debt Statistics</h1>
 
-![6](https://ibb.co/80nnZbB)
+![img](https://i.postimg.cc/W1CGFVcv/powerbi.png)
+
 
 
 <h3 align="left">Problem Statement :</h3>
