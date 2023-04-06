@@ -1,16 +1,11 @@
 For Error Code:3948 Loading Local Data is Disabled
 
 1. Open MYSQL Command Line
-
 2. Type in your password
-
 3. Enter the following:
-
-     SHOW GLOBAL VARIABLES LIKE 'local_infile';
-
+	SHOW GLOBAL VARIABLES LIKE 'local_infile';
 4. If local_infile value is equal to false set it to true by:
-
-SET GLOBAL local_infile = true;
+	SET GLOBAL local_infile = true;
 
 
 For Error Code:2068
